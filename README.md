@@ -1,6 +1,8 @@
 # Open-in-iTerm
 a simple applescript that opens a terminal from finder
 
+![Example](http://i.imgur.com/29csGpq.gifv)
+
 ## About
 This applescript is heavily addapted from [various](http://peterdowns.com/posts/open-iterm-finder-service.html) [locations](https://gist.github.com/uguryavas/6b409f6058cca2e2412f). Instead of using automator, however, this version is pure applescript, going from 2.5MB to 916KB.
 
