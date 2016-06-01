@@ -10,10 +10,15 @@ set cd_cmd to "cd " & dir_path & "; clear;"
 tell application "iTerm"
   activate
   try
-    tell current session of first window
-      write text cd_cmd
-    end tell
+    set _session to current session of current terminal
   on error
-    create window with profile "Default" command cd_cmd
+    set _term to (make new terminal)
+    tell _term
+      launch session "Default"
+      set _session to current session
+    end tell
   end try
+  tell _session
+    write text cd_cmd
+  end tell
 end tell
