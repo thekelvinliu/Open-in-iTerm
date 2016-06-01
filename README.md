@@ -1,8 +1,8 @@
 # Open-in-iTerm
 a lightweight app that opens a Finder directory in iTerm
 
-## Usage
-![Example](http://i.imgur.com/29csGpq.gif)
+## Installation & Usage
+![Example](example.gif)
 
 Assuming you're using iTerm `3.0.0` or above (if not, see [below](#compatibility)), installing Open-in-iTerm is quick and easy.
 Simply `git clone` this repository and command-drag `Open in iTerm.app` onto Finder's toolbar.
