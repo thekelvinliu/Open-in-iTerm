@@ -20,4 +20,4 @@ resuting in a considerably smaller app (from ~2.5MB to 146KB).
 iTerm2 recently released version `3.0.0`.
 This introduced breaking changes to iTerm's AppleScript support.
 As such, Open-in-iTerm was updated to work with the new iTerm and is only compatible with versions `3.0.0` and newer.
-If for any reason you'd like to continue to use an earlier version of iTerm, switch to the `v2` branch, and use that `Open in iTerm.app` instead.
+If for any reason you'd like to continue to use an earlier version of iTerm, switch to the `legacy` branch, and use that `Open in iTerm.app` instead.
